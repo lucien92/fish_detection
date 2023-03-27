@@ -1,10 +1,10 @@
 This document contains 4 files which constitute the key steps of our algorithm
 
-0) An introduction to the problem of the stock gestion of fishes, analysing tabular data
+0)An introduction to the problem of the stock gestion of fishes, analysing tabular data
 
 1)First of all a method of scrapping Inaturalist which consists in recovering the images of this site specialized in biology. It is coded in a dynamic way (JavaScript style) so we are obliged to integrate a method of scrolling which consists in 'going down' at the end of each page, to wait for the end of a loading then to recover the images by a wget method and a study of the CSS style of the page.
 
-Once these images are recovered, we can then train our convolutional neural network. We chose a ResNet101, a particularly powerful network (several million parameters), a learning rate scheduler SGD to which we added a ReduceLROnPlateau in cases where the loss would be 'blocked' in a local extremum. After splitting our dataset in three sets, we launch a training.
+2)Once these images are recovered, we can then train our convolutional neural network. We chose a ResNet101, a particularly powerful network (several million parameters), a learning rate scheduler SGD to which we added a ReduceLROnPlateau in cases where the loss would be 'blocked' in a local extremum. After splitting our dataset in three sets, we launch a training.
 
 3)Analysis of our results. We analyze our results in three main ways: 
 
