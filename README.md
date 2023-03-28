@@ -1,4 +1,4 @@
-This document contains 4 files which constitute the key steps of our algorithm
+This document contains 4 folders which constitute the key steps of our algorithm
 
 0)An introduction to the problem of the stock gestion of fishes, analysing tabular data
 
