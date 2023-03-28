@@ -10,7 +10,7 @@ import re
 import wget
 
 # path à modifier en fonction d'où se trouver le chromedriver
-path = '/home/lucien/Documents/final_project_Essec/scrapping/chromedriver'
+path = '/home/lucien/Documents/final_project_Essec/scrapping/chromedriver' #allow me to use selenium and navigate through the website
 
 #Création dossier pour les saumons : il faudra généraliser pour d'autres familles de poissons
 try:
